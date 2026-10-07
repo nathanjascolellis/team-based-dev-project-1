@@ -6,6 +6,7 @@ public class WeaponMove : MonoBehaviour
     // variable initialization
     public GameObject playerChar; // assign a player character to the weapon in inspector
     public GameObject weaponObj; // intended to be assigned to the weapon itself
+    SpriteRenderer weaponSprite; // weapon sprite renderer reference
     float xOffset; // determines the offset of the weapon sprite from the player sprite
     bool isFacingRight; // binary direction indicator
     Vector2 weaponPos; // maybe unnecessary but i dont like writing a new vector directly into position
@@ -15,6 +16,7 @@ public class WeaponMove : MonoBehaviour
     {
         xOffset = 0.4f;
         isFacingRight = true;
+        weaponSprite = GetComponent<SpriteRenderer>();
     }
 
     // Update is called once per frame
@@ -35,7 +37,7 @@ public class WeaponMove : MonoBehaviour
     {
         if (v.isPressed){
             isFacingRight = false;
-            Debug.Log(isFacingRight);
+            weaponSprite.flipY = true; // flip sprite if facing left
         }
     }
 
@@ -43,7 +45,7 @@ public class WeaponMove : MonoBehaviour
     {
         if (v.isPressed){
             isFacingRight = true;
-            Debug.Log(isFacingRight);
+            weaponSprite.flipY = false; // unflip sprite
         }
     }
 }
