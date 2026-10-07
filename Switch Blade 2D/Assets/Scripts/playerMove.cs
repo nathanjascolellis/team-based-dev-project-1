@@ -3,6 +3,7 @@ using UnityEngine.InputSystem;
 
 public class playerMove : MonoBehaviour
 {
+    // variable initialization
     Vector2 moveInput;
     Vector2 jumpForce;
     Rigidbody2D playerRB;
