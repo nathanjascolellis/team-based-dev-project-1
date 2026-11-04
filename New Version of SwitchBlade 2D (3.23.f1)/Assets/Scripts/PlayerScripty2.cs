@@ -56,7 +56,7 @@ public class PlayerScripty2 : MonoBehaviour
         {
             vel.y = Jumpy;
         }
-        if(Input.GetKeyDown(KeyCode.S))
+        if(Input.GetKey(KeyCode.S))
         {
             Instantiate(woodswordattack, woodensword.position, transform.rotation);
         }
