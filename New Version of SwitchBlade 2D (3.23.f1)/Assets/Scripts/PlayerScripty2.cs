@@ -20,6 +20,10 @@ public class PlayerScripty2 : MonoBehaviour
     public Transform woodensword;
     public pizzaslash pizzabladeattack;
     public Transform pizzacutter;
+    public Daggerstab daggerattack;
+    public Transform daggerknife;
+    public Gunshoots bladeshot;
+    public Transform bladegun;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {

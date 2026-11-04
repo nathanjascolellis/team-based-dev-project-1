@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class Daggerslash : MonoBehaviour
+public class Daggerstab : MonoBehaviour
 {
      public float MovementSpeed = 1;
  

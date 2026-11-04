@@ -272,8 +272,8 @@ MonoBehaviour:
     y: 0
     width: 1104
     height: 492
-  m_MinSize: {x: 202, y: 226}
-  m_MaxSize: {x: 4002, y: 4026}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 17}
   m_Panes:
   - {fileID: 17}
@@ -634,7 +634,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scripts
+    - Assets/Models
     m_Globs: []
     m_ProductIds: 
     m_AnyWithAssetOrigin: 0
@@ -644,7 +644,7 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scripts
+  - Assets/Models
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\ajoseph023.ITCS\Downloads\team-based-dev-project-1\New
     Version of SwitchBlade 2D (3.23.f1)
@@ -654,12 +654,12 @@ MonoBehaviour:
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs:
-    - m_Data: 51300
+    - m_Data: 72830
     m_LastClickedID:
-      m_Data: 51300
+      m_Data: 72830
     m_ExpandedIDs:
     - m_Data: 0
-    - m_Data: 50996
+    - m_Data: 68770
     - m_Data: 1000000000
     - m_Data: 2147483647
     m_RenameOverlay:
@@ -692,9 +692,7 @@ MonoBehaviour:
     m_SelectedIDs: []
     m_LastClickedID:
       m_Data: 0
-    m_ExpandedIDs:
-    - m_Data: 0
-    - m_Data: 50996
+    m_ExpandedIDs: []
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -722,8 +720,8 @@ MonoBehaviour:
       m_ResourceFile: 
   m_ListAreaState:
     m_SelectedInstanceIDs:
-    - m_Data: -3016
-    m_LastClickedInstanceID: -3016
+    - m_Data: 79320
+    m_LastClickedInstanceID: 79320
     m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: []
     m_RenameOverlay:
@@ -800,7 +798,7 @@ MonoBehaviour:
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
   m_LastInspectedObjectInstanceID: -1
-  m_LastVerticalScrollValue: 0
+  m_LastVerticalScrollValue: 224
   m_GlobalObjectId: 
   m_InspectorMode: 0
   m_LockTracker:
@@ -848,20 +846,20 @@ MonoBehaviour:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs:
-      - m_Data: -3016
+      - m_Data: 79320
       m_LastClickedID:
-        m_Data: -3016
+        m_Data: 79320
       m_ExpandedIDs:
-      - m_Data: -3148
-      - m_Data: -3062
-      - m_Data: -3016
-      - m_Data: -3014
-      - m_Data: -1360
-      - m_Data: 51448
+      - m_Data: -65198
+      - m_Data: -63862
+      - m_Data: -62860
+      - m_Data: 79126
+      - m_Data: 79358
+      - m_Data: 79372
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: goalpost
-        m_OriginalName: goalpost
+        m_Name: 
+        m_OriginalName: 
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
@@ -869,10 +867,10 @@ MonoBehaviour:
           width: 0
           height: 0
         m_UserData:
-          m_Data: -3156
+          m_Data: 0
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 0
+        m_OriginalEventType: 11
         m_IsRenamingFilename: 0
         m_TrimLeadingAndTrailingWhitespace: 0
         m_ClientGUIView: {fileID: 4}
@@ -1380,9 +1378,9 @@ MonoBehaviour:
   m_AudioPlay: 0
   m_DebugDrawModesUseInteractiveLightBakingData: 0
   m_Position:
-    m_Target: {x: -0.5044792, y: -1.4131986, z: -0.00062513154}
+    m_Target: {x: -4.5143113, y: 2.791087, z: -0.076744154}
     speed: 2
-    m_Value: {x: -0.55805045, y: -1.3919401, z: 0.0012455866}
+    m_Value: {x: -4.5143113, y: 2.791087, z: -0.076744154}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1432,9 +1430,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 4.34428
+    m_Target: 11.9561825
     speed: 2
-    m_Value: 4.1572056
+    m_Value: 11.9561825
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -1536,10 +1534,10 @@ MonoBehaviour:
     m_VAllowExceedBaseRangeMin: 1
     m_VAllowExceedBaseRangeMax: 1
     m_ScaleWithWindow: 0
-    m_HSlider: 0
-    m_VSlider: 0
+    m_HSlider: 1
+    m_VSlider: 1
     m_IgnoreScrollWheelUntilClicked: 0
-    m_EnableMouseInput: 0
+    m_EnableMouseInput: 1
     m_EnableSliderZoomHorizontal: 0
     m_EnableSliderZoomVertical: 0
     m_UniformScale: 1

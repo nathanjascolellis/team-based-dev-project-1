@@ -859,6 +859,10 @@ MonoBehaviour:
   woodensword: {fileID: 1601784075}
   pizzabladeattack: {fileID: 1056744363}
   pizzacutter: {fileID: 1056744359}
+  daggerattack: {fileID: 8142195596148143279}
+  daggerknife: {fileID: 112587784}
+  bladeshot: {fileID: 3611639452783110586}
+  bladegun: {fileID: 1153309926}
 --- !u!1 &1552140636
 GameObject:
   m_ObjectHideFlags: 0
@@ -1304,6 +1308,17 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4ea42d492d8f89648bef5d56ce622839, type: 3}
+--- !u!114 &3611639452783110586 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1808298218164620319, guid: 4ea42d492d8f89648bef5d56ce622839, type: 3}
+  m_PrefabInstance: {fileID: 3611639452783110585}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1153309925}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 970963e42a03ce74d9a773633b03f95a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: '::'
 --- !u!1001 &4979047182211438391
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1660,6 +1675,17 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4be4225b8289e0845a8cbba1e4ee2dc6, type: 3}
+--- !u!114 &8142195596148143279 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7332067763462575032, guid: 4be4225b8289e0845a8cbba1e4ee2dc6, type: 3}
+  m_PrefabInstance: {fileID: 8142195596148143278}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 112587783}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3e72580bee25c146b2f8ef71a76c069, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: '::'
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
