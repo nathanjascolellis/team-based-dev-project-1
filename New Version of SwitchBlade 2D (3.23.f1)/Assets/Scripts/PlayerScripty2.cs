@@ -60,13 +60,21 @@ public class PlayerScripty2 : MonoBehaviour
         {
             vel.y = Jumpy;
         }
-        if(Input.GetKey(KeyCode.S))
+        if(Input.GetKey(KeyCode.W))
         {
             Instantiate(woodswordattack, woodensword.position, transform.rotation);
         }
-        if (Input.GetButtonDown("Pizza Reflect"))
+        if (Input.GetKey(KeyCode.R))
         {
             Instantiate(pizzabladeattack, pizzacutter.position, transform.rotation);
+        }
+        if (Input.GetKey(KeyCode.E))
+        {
+            Instantiate(daggerattack, daggerknife.position, transform.rotation);
+        }
+        if (Input.GetKey(KeyCode.Q))
+        {
+            Instantiate.(bladeshot, bladegun.position, transform.rotation);
         }
     }
 
